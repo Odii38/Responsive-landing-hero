@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page Hero</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">Pulse<span>Flow</span></a>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#login" class="nav-cta">Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero">
+    <div class="container hero-grid">
+      <!-- Left Column: Copy & Signup Form -->
+      <div class="hero-copy">
+        <div class="pill-badge">New Release • Version 2.4</div>
+        <h1>Turn messy client feedback into clear action items.</h1>
+        <p class="hero-subtitle">
+          Collect website edits, bug reports, and approvals in one visual workspace without endless email threads or confusing spreadsheets.
+        </p>
+
+        <form class="signup-form" action="#" method="post">
+          <label for="email-input" class="sr-only">Work email address</label>
+          <input
+            type="email"
+            id="email-input"
+            name="email"
+            placeholder="Enter your work email..."
+            required
+          />
+          <button type="submit" class="btn-submit">Get Early Access</button>
+        </form>
+
+        <p class="form-note">Free 14-day trial • No credit card required</p>
+      </div>
+
+      <!-- Right Column: Clean UI Mockup Card -->
+      <div class="hero-visual">
+        <div class="mockup-window">
+          <div class="window-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="window-title">Project Dashboard</span>
+          </div>
+          <div class="window-body">
+            <div class="task-row completed">
+              <span class="status-tag done">Fixed</span>
+              <span class="task-text">Mobile header overflow on iPhone</span>
+            </div>
+            <div class="task-row active">
+              <span class="status-tag progress">In Review</span>
+              <span class="task-text">Update pricing grid button contrast</span>
+            </div>
+            <div class="task-row">
+              <span class="status-tag pending">Queued</span>
+              <span class="task-text">Optimize hero banner load speed</span>
+            </div>
+            <div class="progress-summary">
+              <div class="progress-label">
+                <span>Sprint Completion</span>
+                <strong>84%</strong>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
